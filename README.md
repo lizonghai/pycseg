@@ -26,7 +26,7 @@ from __future__ import unicode_literals, print_function
 import pycseg
 
 def pycseg_test():
-    content = "黄晓明和奥斯特洛夫斯基两个人结伴来到了柳林镇。王晓平说的确实在理。"
+    content = "张华平在北京说的确实在理"
 
     seg = pycseg.Pycseg()
     seg.load(data_dir='data')
@@ -38,7 +38,7 @@ def pycseg_test():
 输出
 
 ```
-黄晓明/nr 和/c 奥斯特洛夫斯基/nr 两/m 个/q 人/n 结伴/vd 来到/v 了/ul 柳林镇/ns 。/w
+张华平/nr 在/p 北京/ns 说/v 的/uj 确实/ad 在理/a 。/w
 ```
 
 ### 参考论文
